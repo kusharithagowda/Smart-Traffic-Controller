@@ -17,7 +17,6 @@ Data visualization (using Matplotlib or similar)
 
 📁 Project Structure
 
-|-------------|-------------|
 | `pcl1.py`   | Plots relationship between traffic density and green light duration |
 | `pcl2.py`   | Shows accuracy of the ML model over training iterations |
 | `pcl3.py`   | Visualizes vehicle count across lanes |
@@ -43,11 +42,6 @@ Data visualization (using Matplotlib or similar)
   
 ## 🚀 How to Run
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/smart-traffic-controller.git
-cd smart-traffic-controller
-
 Example Output (from pcl6.py)
 Model Accuracy: 93.33%
 Predicted Traffic Class: 2 (Vehicle Count: 95, Traffic Density: 7.43)
@@ -58,6 +52,11 @@ Traffic is heavy: Green light for 60 seconds.
 ![image](https://github.com/user-attachments/assets/ad7b46df-6afd-4467-ad84-8612ea6618c3)
 ![image](https://github.com/user-attachments/assets/6eae9da0-f3a1-440e-abd2-48149540161f)
 
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/smart-traffic-controller.git
+cd smart-traffic-controller
 
  How It Works
 Synthetic traffic data is generated (vehicle count + density).
